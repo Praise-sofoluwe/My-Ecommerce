@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Ecommerce</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="https://kit.fontawesome.com/a05a6c11aa.js"></script>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section id="header">
+      <a href="index.html"
+        ><img src="img/logo.png" class="logo" alt="logo"
+      /></a>
+
+      <div>
+        <ul id="navbar">
+          <li id="lg-bag" class="hidden">
+            <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+          </li>
+          <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+          <!-- <li><a href="#" class="active btnlogin-popup">LogIn</a></li> -->
+          <button class="btnLogin-popup nothidden">Login</button>
+        </ul>
+      </div>
+
+      <div id="mobile">
+        <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+        <i id="bar" class="fas fa-outdent"></i>
+      </div>
+    </section>
+
+    <section id="login">
+      <div class="welcome" id="welcome">
+        <div class="container">
+          <div class="h2container">
+            <h2></h2>
+          </div>
+          <p>Your details has been successfully submited. Thank you</p>
+          <a href="index.html" class="btn">Okay</a>
+        </div>
+      </div>
+
+      <div class="welcome" id="welcome-2">
+        <div class="container">
+          <h2>Welcome Back</h2>
+          <p>Your details has been successfully submited. Thank you</p>
+          <a href="index.html" class="btn">Okay</a>
+        </div>
+      </div>
+
+      <div class="wrapper">
+        <span class="icon-close">
+          <ion-icon name="close"></ion-icon>
+        </span>
+
+        <div class="form-box login">
+          <h2>Login</h2>
+          <form action="#" id="#login-form">
+            <div class="input-box" id="email">
+              <span class="icon"><ion-icon name="mail"></ion-icon></span>
+              <input type="email" required />
+              <label for="email">Email</label>
+            </div>
+            <div class="input-box" id="password">
+              <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+              <input type="password" required />
+              <label for="password">Password</label>
+            </div>
+
+            <div class="remember-forgot">
+              <label><input type="checkbox" />Remember me</label>
+              <a href="#">Forgot Password?</a>
+            </div>
+            <button type="submit" class="btn" id="login-btn">
+              <a href="#" id="login-btn">Login</a>
+            </button>
+            <div class="login-register">
+              <p>
+                Don't have an account?<a href="#" class="register-link"
+                  >Register</a
+                >
+              </p>
+            </div>
+          </form>
+        </div>
+
+        <div class="form-box register">
+          <h2>SignUp</h2>
+          <form action="#">
+            <div class="input-box" id="username">
+              <span class="icon"><ion-icon name="person"></ion-icon></span>
+              <input type="text" required />
+              <label>Username</label>
+            </div>
+            <div class="input-box">
+              <span class="icon"><ion-icon name="mail"></ion-icon></span>
+              <input id="input2-signUpEmail" type="email" required />
+              <label for="email">Email</label>
+            </div>
+            <div class="input-box" id="SignUp-password">
+              <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+              <input type="password" required />
+              <label for="password">Password</label>
+            </div>
+
+            <div class="remember-forgot">
+              <label
+                ><input type="checkbox" />I agree to the terms &
+                conditions</label
+              >
+            </div>
+            <button type="submit" class="btn" id="welcome-popup">SignUp</button>
+            <div class="login-register">
+              <p>
+                Already have an account?<a href="#" class="login-link">Login</a>
+              </p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section id="newsletter" class="section-p1 section-m1">
+      <div class="newstext">
+        <h4>Sign Up For Newsletters</h4>
+        <p>
+          Get E-mail updates about our latest shop and
+          <span>special offers.</span>
+        </p>
+      </div>
+
+      <div class="form">
+        <input type="email" name="email" placeholder="Your email address" />
+        <button type="submit" class="normal">Sign Up</button>
+      </div>
+    </section>
+
+    <footer class="section-p1">
+      <div class="col">
+        <img class="logo" src="img/logo.png" alt="logo" />
+        <h4>Contact</h4>
+        <p>
+          <strong>Address: </strong> 562 Wellington Road, Street 32, San
+          Francisco
+        </p>
+        <p><strong>Phone: </strong> +01 2222 365 /(+91) 01 2345 6789</p>
+        <p><strong>Hours: </strong> 10:00 - 18:00, Mon - Sat</p>
+        <div class="follow">
+          <h4>Follow</h4>
+          <div class="icon">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-pinterest-p"></i>
+            <i class="fab fa-youtube"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <h4>About</h4>
+        <a href="#">About Us</a>
+        <a href="#">Delivery Information</a>
+        <a href="#">Primary Policy</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Contact Us</a>
+      </div>
+
+      <div class="col">
+        <h4>My Account</h4>
+        <a href="#">Sign In</a>
+        <a href="#">View Cart</a>
+        <a href="#">My Wishlist</a>
+        <a href="#">Track My Order</a>
+        <a href="#">Help</a>
+      </div>
+
+      <div class="col install">
+        <h4>Install App</h4>
+        <p>From App Store or Google Play</p>
+        <div class="row">
+          <img src="img/pay/app.jpg" alt="" />
+          <img src="img/pay/play.jpg" alt="" />
+        </div>
+        <p>Secured Payment Gateways</p>
+        <img src="img/pay/pay.png" alt="" />
+      </div>
+
+      <div class="copyright">
+        <p>© 2021, Praise - HTML CSS JS Ecommerce Template</p>
+      </div>
+    </footer>
+
+    <script src="login.js"></script>
+    <script src="script.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
